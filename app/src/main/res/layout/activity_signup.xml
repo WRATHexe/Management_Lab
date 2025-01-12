@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="16dp"
+    tools:context=".SignupActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:maxLength="8"
+        android:hint="Enter Your Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Your Email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:hint="Enter Your Phone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:hint="Password"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/etCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:hint="Confirm Password"/>
+
+    <CheckBox
+        android:id="@+id/cbRememberUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember User"/>
+
+    <CheckBox
+        android:id="@+id/cbRememberLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember Login"/>
+
+    <Button
+        android:id="@+id/btnHaveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have Account"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="12dp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
